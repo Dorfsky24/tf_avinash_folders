@@ -1,4 +1,4 @@
-# Below is the resource block which creates EC2 Instance
+# Below is the resource block which creates EC2 Instance in the VPC
 resource "aws_instance" "test" {
   ami           = ""
   instance_type = ""
